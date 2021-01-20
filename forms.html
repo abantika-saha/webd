@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+
+    <form action="/hey">
+    <p>
+        <label for="username">Enter a Username :</label>
+        <input type="text" placeholder="username">
+    </p>
+    <p>
+        <label for="color">Enter a Password :</label>
+        <input type="password" placeholder="password">
+    </p>
+    <p>
+        <label for="password">Enter a Color:</label>
+        <input type="color" placeholder="color">
+    </p>
+    <p>
+        <label for="password">Enter a Number:</label>
+        <input type="number" placeholder="enter a number">
+    </p>
+    <p>
+        <button type="button">Submit</button>
+    </p>
+</form>
+<h1>Search Youtube</h1>
+<form action="https://www.youtube.com/results">
+    <input type="text" name="search_query">
+    <button>Search Youtube</button>
+</form>
+<form action="/birds">
+<input type="checkbox" name="agree_tos" id="agree">
+<label for="agree">I agree to everything</label>
+<label for="xs">XS:</label>
+<input type="radio" name="size" id="" value="willcomeinurl">
+<label for="s">S</label>
+<input type="radio" name="size" id="">
+<label for="m">M</label>
+<input type="radio" name="size" id="">
+
+
+<p>
+<label for="meal">Please enter a Starter</label>
+<select name="meal" id="meal">
+    <option value="fish">Fish</option>
+    <option value="paneer" selected>Paneer</option>
+    <option value="chicken">Chicken</option>
+</select>
+</p>
+<p>
+    <label for="cheese">Amount of Cheese </label>
+    <input type="range" id="cheese" min="1" max="100" step="7" name="cheese_level">
+</p>
+<p>
+    <label for="requests">Any Special Request?</label>
+    <br>
+    <textarea name="Request?" id="requests" cols="15" rows="1"></textarea>
+</p>
+<button>Submit</button>
+</form>
+    
+</body>
+</html>

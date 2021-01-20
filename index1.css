@@ -1,0 +1,76 @@
+/*h2 {
+color:darkcyan;
+text-align: center;
+font-weight: 1000;
+text-decoration: #ccee99 underline wavy;
+line-height: 1;
+letter-spacing: 1px;
+font-size: 50px;
+/*font-family: 'Segoe UI', Futura, sans-serif;
+font-family: fantasy;
+}
+
+button {
+    color: aquamarine;
+    background-color: cornflowerblue;
+}
+
+p1 {
+    color: darkcyan;
+}
+
+p2{
+    color: rgb(6, 228, 98);
+}*/
+
+/* { /*universal selector, selects everything in page*/
+    /*color:rgb(31, 44, 228);
+}*/
+h2 {
+    color:rgb(107, 11, 11);
+    text-align: center;
+    font-weight: 1000;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-size: 50px;
+    /*font-family: 'Segoe UI', Futura, sans-serif;
+    font-family: fantasy;*/
+    }
+p1{
+    color: darkred;
+}
+button {
+    color: rgb(235, 13, 13);
+    background-color: rgb(240, 155, 155);
+}
+
+*{
+    background-color: rgb(241, 218, 197);
+}
+
+.tag{
+    background-color: rgb(179, 127, 127);
+    color: darkred;
+}
+
+a{
+    background-color: rgb(179, 127, 127);
+    color: darkred;
+    text-decoration:none ;
+}
+
+input[type="password"]
+{
+    color: rgb(255, 0, 0);
+}
+input[type="text"]
+{
+    color: rgb(255, 0, 0);
+}
+button:hover{
+    background-color: rgb(206, 8, 8);
+    color: rgb(233, 219, 219);
+}
+a:hover{
+    text-decoration: underline;
+}
