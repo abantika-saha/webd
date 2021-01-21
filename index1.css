@@ -53,20 +53,16 @@ button {
     color: darkred;
 }
 
-a{
-    background-color: rgb(179, 127, 127);
-    color: darkred;
-    text-decoration:none ;
-}
 
-input[type="password"]
+
+/*input[type="password"]
 {
     color: rgb(255, 0, 0);
 }
 input[type="text"]
 {
     color: rgb(255, 0, 0);
-}
+}*/
 button:hover{
     background-color: rgb(206, 8, 8);
     color: rgb(247, 117, 117);
@@ -74,4 +70,15 @@ button:hover{
 
 a:hover{
     text-decoration: underline;
+}
+a{
+    background-color: rgb(179, 127, 127);
+    color: darkred;
+    text-decoration:none ;
+}
+p2{
+    color: lightcoral;
+}
+input {
+    color: inherit;
 }
