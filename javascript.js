@@ -1,5 +1,4 @@
 let dayOfWeek = prompt('ENTER A DAY').toLowerCase();
-// console.log('MEH');
 
 if (dayOfWeek === 'monday') {
     console.log("UGHHH I HATE MONDAYS!");
