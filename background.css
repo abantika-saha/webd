@@ -1,0 +1,14 @@
+section{
+    width: 80%;
+    height: 800px;
+    background-image:  url("https://image.freepik.com/free-vector/wings-with-lgbt-colors-neon-sign_1262-21601.jpg") ;
+    /* background-color: rgb(197, 115, 33) */
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: inherit;
+}
+h1{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+}
