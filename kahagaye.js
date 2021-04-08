@@ -7,6 +7,13 @@ app.get('/',(req,res)=>{
     res.render('home.ejs')
 })
 
+app.get('/dogs',(req,res)=>{
+    const dogs = [
+        "Bruno", "Toffee", "Champ", "Robin"
+    ]
+    res.render('dogs', {dogs})
+})
+
 app.get('/r/:subreddit',(req,res)=>{
     const {subreddit} = req.params;
     res.render('subreddit',{subreddit})
