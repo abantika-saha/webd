@@ -1,0 +1,43 @@
+.container{
+    text-align: center;
+    margin-top: 30px;
+
+}
+h1{
+    color: rgb(5, 5, 94);
+    font-weight: bold;
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+table{
+    margin: auto;
+}
+
+input{
+    font-size: 28px;
+    border-width: medium;
+    border-color: rgb(5, 5, 94);
+    background-color: rgb(10, 140, 192);
+    
+}
+button{
+    font-size: 35px;
+    background-color: rgb(164, 229, 255);
+    width: 86px;
+    height: 60px;
+    color: rgb(5, 5, 94);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-color: rgb(5, 5, 94);
+    border-width: medium;
+    border-radius: 10%;
+    text-align: ;
+}
+
+.calculator{
+    display: inline-block;
+    border: 10px solid rgb(5, 5, 94);
+    background-color: rgb(103, 167, 209);
+    padding: 5px;
+}
+
+
