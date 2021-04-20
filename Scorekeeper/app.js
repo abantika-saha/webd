@@ -14,6 +14,8 @@ p1.addEventListener('click',function()
         if(p1score===winningscore)
         {
             isgameover=true;
+            displayscorep1.classList.add('winner');
+            displayscorep2.classList.add('loser');
         }
         displayscorep1.textContent=p1score;
     }
@@ -26,6 +28,8 @@ p2.addEventListener('click',function()
         if(p2score===winningscore)
         {
             isgameover=true;
+            displayscorep2.classList.add('winner');
+            displayscorep1.classList.add('loser');
         }
         displayscorep2.textContent=p2score;
     }
@@ -38,6 +42,8 @@ ws.addEventListener('change',function()
     p2score=0;
     displayscorep1.textContent=p1score;
     displayscorep2.textContent=p2score;
+    displayscorep1.classList.remove('winner','loser');
+    displayscorep2.classList.remove('winner','loser');
 
 })
 reset.addEventListener('click',function()
@@ -47,4 +53,6 @@ reset.addEventListener('click',function()
     p2score=0;
     displayscorep1.textContent=p1score;
     displayscorep2.textContent=p2score;
+    displayscorep1.classList.remove('winner','loser');
+    displayscorep2.classList.remove('winner','loser');
 })
